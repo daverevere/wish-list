@@ -1,0 +1,22 @@
+div {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 38px;
+  font-weight: bold;
+  color: #4db8ff;
+  \-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: Chalkboard;
+}
+
+nav {
+  padding: 10px;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+
+a {
+  font-family: Chalkboard;
+}

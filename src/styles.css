@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+img {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+button {
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #ccc;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  outline: none !important;
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #ccc;
+
+}
+

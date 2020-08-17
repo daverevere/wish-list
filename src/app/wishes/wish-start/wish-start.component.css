@@ -1,0 +1,25 @@
+.image {
+  width: 100%;
+  height: auto;
+  /*transform: scaleY(-1);*/
+  /*filter: brightness(100);*/
+}
+
+.image-container {
+  position: relative;
+  float: left;
+  height: auto;
+  width: 500px;
+  overflow: hidden;
+  -webkit-animation: reveal 1s ease;
+  -webkit-animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes reveal {
+  0%   {width: 0px;}
+  100% { width: 500px}
+}
+@keyframes reveal {
+  0%   {width: 0px;}
+  100% { width: 500px;}
+}

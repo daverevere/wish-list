@@ -1,0 +1,14 @@
+<div class="h-100 row align-items-center">
+  <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
+    <button class="bt btn-lg btn-danger" (click)="onNewWish()">Make a Wish!</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12 col-lg-12 col-md-12 col-sm-12">
+    <app-wish-item
+      *ngFor="let wishEl of wishes; let i = index"
+      [wish]="wishEl"
+      [index]="i"></app-wish-item></div>
+</div>
+
