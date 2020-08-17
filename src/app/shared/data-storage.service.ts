@@ -18,7 +18,7 @@ export class DataStorageService {
     const wishes = this.wishService.getWishes();
     this.http
       .put(
-        'https://wish-list-145f5.firebaseio.com/wishes.json',
+        'database-url/wishes.json',
         wishes
       )
       .subscribe(response => {
@@ -29,7 +29,7 @@ export class DataStorageService {
   fetchWishes() {
     return this.http
       .get<Wish[]>(
-        'https://wish-list-145f5.firebaseio.com/wishes.json'
+        'database-url/wishes.json'
       )
       .pipe(
         map(wishes => {
